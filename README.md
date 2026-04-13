@@ -55,3 +55,33 @@ petals_llm_chain_scheduling/
 ├── data_models.py       # Shared data classes
 └── cli.py               # Command-line entry points
 ```
+
+## Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@inproceedings{sun2026serving,
+  title={Serving Chain-structured Jobs with Large Memory Footprints with Application to Large Foundation Model Serving},
+  author={Sun, Tingyang and He, Ting and Hou, I-Hong},
+  booktitle={The Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc '26)},
+  year={2026},
+  address={Tokyo, Japan},
+  publisher={ACM}
+}
+```
+
+This project also builds on [PETALS](https://github.com/bigscience-workshop/petals):
+
+```bibtex
+@inproceedings{borzunov2023petals,
+  title={Petals: Collaborative Inference and Fine-tuning of Large Models},
+  author={Borzunov, Alexander and Baranchuk, Dmitry and Dettmers, Tim and Riabinin, Maksim and Belkada, Younes and Chumachenko, Artem and Samygin, Pavel and Raffel, Colin},
+  booktitle={Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)},
+  year={2023}
+}
+```
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
