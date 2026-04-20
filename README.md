@@ -61,13 +61,13 @@ petals_llm_chain_scheduling/
 If you use this code in your research, please cite:
 
 ```bibtex
-@inproceedings{sun2026serving,
-  title={Serving Chain-structured Jobs with Large Memory Footprints with Application to Large Foundation Model Serving},
-  author={Sun, Tingyang and He, Ting and Hou, I-Hong},
-  booktitle={The Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc '26)},
-  year={2026},
-  address={Tokyo, Japan},
-  publisher={ACM}
+@article{Sun26arXiv,
+  author  = {Tingyang Sun and Ting He and I-Hong Hou},
+  title   = {Serving Chain-structured Jobs with Large Memory Footprints with Application to Large Foundation Model Serving},
+  journal = {CoRR},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2604.14993},
+  url     = {https://doi.org/10.48550/arXiv.2604.14993}
 }
 ```
 
