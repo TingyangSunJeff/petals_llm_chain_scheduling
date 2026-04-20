@@ -38,7 +38,7 @@ chain-launch-orchestrator --config config.json --port 8080
 # Launch servers with assigned blocks
 chain-launch-server --model meta-llama/Llama-2-7b-hf --start-block 0 --end-block 16
 
-# Run full experiment (reproduces Table 1)
+# Run full experiment
 chain-run-experiment --config config.json --trace azure_trace.csv
 ```
 
